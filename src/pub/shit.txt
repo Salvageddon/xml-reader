@@ -1,0 +1,1 @@
+this file won't be opened by XML_read(); because it's not a .xml
