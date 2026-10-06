@@ -6,7 +6,7 @@ void printElementData(xmlElement * el, int generation){
         printf("  ");
     }
 
-    printf("%s (%d) [%d] <%d> {", el->name, el->type, el->elements.length, el->attributes.length);
+    printf("%s (%x) [%d] <%d> {", el->name, el->type, el->elements.length, el->attributes.length);
 
     for(int i = 0; i < el->attributes.length; i++){
         printf("\n");

@@ -77,7 +77,7 @@ xmlElement * createElement(char * name, int nameLength, int type){
     o->attributes = LST_createList();
     o->name = name;
     o->nameLength = nameLength;
-    o->type = (char)type;
+    o->type = type;
 
     return o;
 }
