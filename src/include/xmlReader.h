@@ -19,16 +19,16 @@ typedef struct{
     List elements; //child elements list
     List attributes; //attribute list
     char * name; //element name
-    int nameLength, //yes
-        type; //type specified in xmlElementTypes enum
+    int nameLength; //yes
+    int type; //type specified in xmlElementTypes enum
 } xmlElement;
 
 typedef struct{
-    char * name, //name of the attribute 
-        * value; //value of the attribute
-    int nameLength, //right
-        valueLength, //what do you think it it? :3
-        type; //type specified in xmlAttributeTypes
+    char * name; //name of the attribute 
+    char * value; //value of the attribute
+    int nameLength; //right
+    int valueLength; //what do you think it it? :3
+    int type; //type specified in xmlAttributeTypes
 } xmlAttribute;
 
 /*
